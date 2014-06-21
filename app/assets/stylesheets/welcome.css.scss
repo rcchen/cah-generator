@@ -1,0 +1,40 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "bootstrap";
+
+#editor {
+	margin-top: 30px;
+}
+
+.card {
+
+	font-family: 'Helvetica Neue';
+	margin: 0 auto;
+	width: 312px;
+	height: 475px;
+	border: 1px solid #CCC;
+	border-radius: 15px;
+	font-size: 32px;
+	line-height: 39px;
+	font-weight: 600;
+	padding: 28px 21px;
+	position: relative;
+
+	.logo {
+		position: absolute;
+		bottom: 22px;
+		width: 213px;
+		height: 39px;
+		left: 18px;
+		img {
+			width: 100%;
+		}
+	}
+
+}
+
+.left {
+	position: absolute;
+}
